@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HQL/OpslaanFilm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bioscoop.iws" afterPath="$PROJECT_DIR$/Bioscoop.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Bioscoopholding.java" afterPath="$PROJECT_DIR$/src/model/Bioscoopholding.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Cinemacomplex.java" afterPath="$PROJECT_DIR$/src/model/Cinemacomplex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Film.java" afterPath="$PROJECT_DIR$/src/model/Film.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Klant.java" afterPath="$PROJECT_DIR$/src/model/Klant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Medewerker.java" afterPath="$PROJECT_DIR$/src/model/Medewerker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Rol.java" afterPath="$PROJECT_DIR$/src/model/Rol.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Socialmedia.java" afterPath="$PROJECT_DIR$/src/model/Socialmedia.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Ticket.java" afterPath="$PROJECT_DIR$/src/model/Ticket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Tienbeurtenkaart.java" afterPath="$PROJECT_DIR$/src/model/Tienbeurtenkaart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Verkoop.java" afterPath="$PROJECT_DIR$/src/model/Verkoop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Vertoning.java" afterPath="$PROJECT_DIR$/src/model/Vertoning.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Zaal.java" afterPath="$PROJECT_DIR$/src/model/Zaal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Zone.java" afterPath="$PROJECT_DIR$/src/model/Zone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/ZoneType.java" afterPath="$PROJECT_DIR$/src/model/ZoneType.java" />
-    </list>
+    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="" />
     <ignored path="Bioscoop.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
