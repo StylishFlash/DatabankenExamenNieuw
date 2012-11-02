@@ -1,8 +1,6 @@
 import org.hibernate.HibernateException;
-import org.hibernate.Session;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.tool.hbm2ddl.SchemaExport;
-import persistence.HibernateUtil;
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,7 +17,7 @@ public class Start {
                 conf.configure("hibernateMySQL.cfg.xml");
                         SchemaExport export = new SchemaExport(conf);
                 export.setOutputFile("shema.sql");
-                export.create(true, false);
+                export.create(true, true);
             } catch (HibernateException e) {
                 e.printStackTrace();
             }
