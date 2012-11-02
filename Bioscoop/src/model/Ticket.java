@@ -38,11 +38,11 @@ public class Ticket {
 
     private Ticket() {
 
-        this(0, null, null, null, null, null);
+        this(0, null, null, null, null);
 
     }
 
-    public Ticket(int barcode, Date datum, String tarief, Verkoop verkoop, Vertoning vertoning, Film film) {
+    public Ticket(int barcode, Date datum, String tarief, Verkoop verkoop, Vertoning vertoning) {
 
         this.barcode = barcode;
         this.datum = datum;
