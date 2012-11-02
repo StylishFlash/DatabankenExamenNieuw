@@ -105,4 +105,16 @@ public class Medewerker {
 
     }
 
+    public void addRol(Rol rol) {
+
+        rollen.add(rol);
+
+    }
+
+    public void removeRoll(Rol rol) {
+
+        rollen.remove(rol);
+
+    }
+
 }

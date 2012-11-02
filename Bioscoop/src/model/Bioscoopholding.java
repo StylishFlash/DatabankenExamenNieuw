@@ -16,14 +16,14 @@ import java.util.Set;
 public class Bioscoopholding {
 
     @Id
-    @GeneratedValue( strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column
     private String naam;
 
     @Column
-    private  String adres;
+    private String adres;
 
     @Column
     private String btwNummer;
@@ -108,6 +108,18 @@ public class Bioscoopholding {
 
     }
 
+    public void addCinemacomplex(Cinemacomplex cinemacomplex) {
+
+        cinemacomplexen.add(cinemacomplex);
+
+    }
+
+    public void removeCinemacomplex(Cinemacomplex cinemacomplex) {
+
+        cinemacomplexen.remove(cinemacomplex);
+
+    }
+
     public Set<Film> getFilms() {
 
         return films;
@@ -117,6 +129,18 @@ public class Bioscoopholding {
     public void setFilms(Set<Film> films) {
 
         this.films = films;
+
+    }
+
+    public void addFilm(Film film) {
+
+        films.add(film);
+
+    }
+
+    public void removeFilm(Film film) {
+
+        films.remove(film);
 
     }
 

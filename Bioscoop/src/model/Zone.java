@@ -22,7 +22,7 @@ public class Zone {
     @ManyToOne
     private ZoneType zoneType;
 
-    @OneToMany
+    @OneToMany(mappedBy = "zone")
     private Set<Zetel> zetels = new HashSet<Zetel>();
 
     @ManyToOne
@@ -74,6 +74,18 @@ public class Zone {
     public void setZetels(Set<Zetel> zetels) {
 
         this.zetels = zetels;
+
+    }
+
+    public void addZetel(Zetel zetel) {
+
+        zetels.add(zetel);
+
+    }
+
+    public void removeZetel(Zetel zetel) {
+
+        zetels.remove(zetel);
 
     }
 

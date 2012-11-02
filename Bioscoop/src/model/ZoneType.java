@@ -25,7 +25,7 @@ public class ZoneType {
     @Column
     private double prijs;
 
-    @OneToMany
+    @OneToMany(mappedBy = "zonetype")
     private Set<Zone> zones = new HashSet<Zone>();
 
     private ZoneType() {
@@ -86,6 +86,18 @@ public class ZoneType {
     public void setZones(Set<Zone> zones) {
 
         this.zones = zones;
+
+    }
+
+    public void addZone(Zone zone) {
+
+        zones.add(zone);
+
+    }
+
+    public void removeZone(Zone zone) {
+
+        zones.remove(zone);
 
     }
 

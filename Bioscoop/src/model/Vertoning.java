@@ -154,4 +154,16 @@ public class Vertoning {
 
     }
 
+    public void addTicket(Ticket ticket) {
+
+        tickets.add(ticket);
+
+    }
+
+    public void removeTicket(Ticket ticket) {
+
+        tickets.remove(ticket);
+
+    }
+
 }

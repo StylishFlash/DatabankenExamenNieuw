@@ -15,7 +15,7 @@ import java.util.Date;
 public class Ticket {
 
     @Id
-    @GeneratedValue( strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column
@@ -28,7 +28,7 @@ public class Ticket {
     private String tarief;
 
     @ManyToOne
-    private Cinemacomplex cinemacomplex;
+    private Verkoop verkoop;
 
     @OneToOne
     private Zetel zetel;
@@ -42,12 +42,12 @@ public class Ticket {
 
     }
 
-    public Ticket(int barcode, Date datum, String tarief, Cinemacomplex cinemacomplex, Vertoning vertoning, Film film) {
+    public Ticket(int barcode, Date datum, String tarief, Verkoop verkoop, Vertoning vertoning, Film film) {
 
         this.barcode = barcode;
         this.datum = datum;
         this.tarief = tarief;
-        this.cinemacomplex = cinemacomplex;
+        this.verkoop = verkoop;
         this.vertoning = vertoning;
 
     }
@@ -100,15 +100,15 @@ public class Ticket {
 
     }
 
-    public Cinemacomplex getCinemacomplex() {
+    public Verkoop getVerkoop() {
 
-        return cinemacomplex;
+        return verkoop;
 
     }
 
-    public void setCinemacomplex(Cinemacomplex cinemacomplex) {
+    public void setVerkoop(Verkoop verkoop) {
 
-        this.cinemacomplex = cinemacomplex;
+        this.verkoop = verkoop;
 
     }
 

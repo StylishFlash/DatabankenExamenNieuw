@@ -28,7 +28,7 @@ public class Zaal {
     @OneToMany
     private Set<Zone> zones = new HashSet<Zone>();
 
-    @OneToMany
+    @OneToMany(mappedBy = "zaal")
     private Set<Vertoning> vertoningen = new HashSet<Vertoning>();
 
     private Zaal() {
@@ -103,5 +103,18 @@ public class Zaal {
         this.vertoningen = vertoningen;
 
     }
+
+    public void addVertooning(Vertoning vertoning) {
+
+        vertoningen.add(vertoning);
+
+    }
+
+    public void removeVertooning(Vertoning vertoning) {
+
+        vertoningen.remove(vertoning);
+
+    }
+
 
 }

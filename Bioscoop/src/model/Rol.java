@@ -16,7 +16,7 @@ import java.util.Set;
 public class Rol {
 
     @Id
-    @GeneratedValue( strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column
@@ -99,6 +99,18 @@ public class Rol {
     public void setOscars(Set<Oscar> oscars) {
 
         this.oscars = oscars;
+
+    }
+
+    public void addOscar(Oscar oscar) {
+
+        oscars.add(oscar);
+
+    }
+
+    public void removeOscar(Oscar oscar) {
+
+        oscars.remove(oscar);
 
     }
 

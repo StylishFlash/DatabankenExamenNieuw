@@ -16,7 +16,7 @@ import java.util.Set;
 public class Cinemacomplex {
 
     @Id
-    @GeneratedValue( strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column
@@ -98,9 +98,9 @@ public class Cinemacomplex {
 
     public void setTelefoonNummer(int telefoonNummer) {
 
-         this.telefoonNummer = telefoonNummer;
+        this.telefoonNummer = telefoonNummer;
 
-     }
+    }
 
     public Set<SocialmediaBericht> getSocialmediaBerichten() {
 
@@ -111,6 +111,18 @@ public class Cinemacomplex {
     public void setSocialmediaBerichten(Set<SocialmediaBericht> socialmediaBerichten) {
 
         this.socialmediaBerichten = socialmediaBerichten;
+
+    }
+
+    public void addSocialmediaBericht(SocialmediaBericht socialmediaBericht) {
+
+        socialmediaBerichten.add(socialmediaBericht);
+
+    }
+
+    public void removeSocialmediaBericht(SocialmediaBericht socialmediaBericht) {
+
+        socialmediaBerichten.remove(socialmediaBericht);
 
     }
 
@@ -126,6 +138,18 @@ public class Cinemacomplex {
 
     }
 
+    public void addZaal(Zaal zaal) {
+
+        zalen.add(zaal);
+
+    }
+
+    public void removeZaal(Zaal zaal) {
+
+        zalen.remove(zaal);
+
+    }
+
     public Set<Verkoop> getVerkopen() {
 
         return verkopen;
@@ -135,6 +159,18 @@ public class Cinemacomplex {
     public void setVerkopen(Set<Verkoop> verkopen) {
 
         this.verkopen = verkopen;
+
+    }
+
+    public void addVerkoop(Verkoop verkoop) {
+
+        verkopen.add(verkoop);
+
+    }
+
+    public void removeVerkoop(Verkoop verkoop) {
+
+        verkopen.remove(verkoop);
 
     }
 

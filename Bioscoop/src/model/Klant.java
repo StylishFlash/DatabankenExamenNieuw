@@ -16,7 +16,7 @@ import java.util.Set;
 public class Klant {
 
     @Id
-    @GeneratedValue( strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column
     private String naam;
@@ -90,6 +90,18 @@ public class Klant {
 
     }
 
+    public void addVerkoop(Verkoop verkoop) {
+
+        verkopen.add(verkoop);
+
+    }
+
+    public void removeVerkoop(Verkoop verkoop) {
+
+        verkopen.remove(verkoop);
+
+    }
+
     public Set<Waardering> getWaarderingen() {
 
         return waarderingen;
@@ -99,6 +111,18 @@ public class Klant {
     public void setWaarderingen(Set<Waardering> waarderingen) {
 
         this.waarderingen = waarderingen;
+
+    }
+
+    public void addWaardering(Waardering waardering) {
+
+        waarderingen.add(waardering);
+
+    }
+
+    public void removeWaardering(Waardering waardering) {
+
+        waarderingen.remove(waardering);
 
     }
 

@@ -16,7 +16,7 @@ import java.util.Set;
 public class Socialmedia {
 
     @Id
-    @GeneratedValue( strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column
@@ -70,6 +70,18 @@ public class Socialmedia {
     public void setSocialmediaBerichten(Set<SocialmediaBericht> socialmediaBerichten) {
 
         this.socialmediaBerichten = socialmediaBerichten;
+
+    }
+
+    public void addSocialmediaBericht(SocialmediaBericht socialmediaBericht) {
+
+        socialmediaBerichten.add(socialmediaBericht);
+
+    }
+
+    public void removeSocialmediaBericht(SocialmediaBericht socialmediaBericht) {
+
+        socialmediaBerichten.remove(socialmediaBericht);
 
     }
 

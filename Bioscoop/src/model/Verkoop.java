@@ -96,6 +96,18 @@ public class Verkoop {
 
     }
 
+    public void addTicket(Ticket ticket) {
+
+        tickets.add(ticket);
+
+    }
+
+    public void removeTicket(Ticket ticket) {
+
+        tickets.remove(ticket);
+
+    }
+
     public Klant getKlant() {
 
         return klant;
@@ -119,5 +131,18 @@ public class Verkoop {
         this.tienbeurtenkaarten = tienbeurtenkaarten;
 
     }
+
+    public void addTienbeurtenkaart(Tienbeurtenkaart tienbeurtenkaart) {
+
+        tienbeurtenkaarten.add(tienbeurtenkaart);
+
+    }
+
+    public void removeTienbeurtenkaart(Tienbeurtenkaart tienbeurtenkaart) {
+
+        tienbeurtenkaarten.remove(tienbeurtenkaart);
+
+    }
+
 
 }

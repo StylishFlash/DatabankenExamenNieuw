@@ -16,7 +16,7 @@ import java.util.Set;
 public class Film {
 
     @Id
-    @GeneratedValue( strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column
@@ -196,6 +196,18 @@ public class Film {
 
     }
 
+    public void addVertooning(Vertoning vertoning) {
+
+        vertoningen.add(vertoning);
+
+    }
+
+    public void removeVertooning(Vertoning vertoning) {
+
+        vertoningen.remove(vertoning);
+
+    }
+
     public Set<SocialmediaBericht> getSocialmediaBerichten() {
 
         return socialmediaBerichten;
@@ -205,6 +217,18 @@ public class Film {
     public void setSocialmediaBerichten(Set<SocialmediaBericht> socialmediaBerichten) {
 
         this.socialmediaBerichten = socialmediaBerichten;
+
+    }
+
+    public void addSocialmediaBericht(SocialmediaBericht socialmediaBericht) {
+
+        socialmediaBerichten.add(socialmediaBericht);
+
+    }
+
+    public void removeSocialmediaBericht(SocialmediaBericht socialmediaBericht) {
+
+        socialmediaBerichten.remove(socialmediaBericht);
 
     }
 
@@ -220,6 +244,18 @@ public class Film {
 
     }
 
+    public void addRol(Rol rol) {
+
+        rollen.add(rol);
+
+    }
+
+    public void removeRoll(Rol rol) {
+
+        rollen.remove(rol);
+
+    }
+
     public Set<Oscar> getOscars() {
 
         return oscars;
@@ -232,6 +268,18 @@ public class Film {
 
     }
 
+    public void addOscar(Oscar oscar) {
+
+        oscars.add(oscar);
+
+    }
+
+    public void removeOscar(Oscar oscar) {
+
+        oscars.remove(oscar);
+
+    }
+
     public Set<Waardering> getWaarderingen() {
 
         return waarderingen;
@@ -241,6 +289,18 @@ public class Film {
     public void setWaarderingen(Set<Waardering> waarderingen) {
 
         this.waarderingen = waarderingen;
+
+    }
+
+    public void addWaardering(Waardering waardering) {
+
+        waarderingen.add(waardering);
+
+    }
+
+    public void removeWaardering(Waardering waardering) {
+
+        waarderingen.remove(waardering);
 
     }
 
