@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="" />
+    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bioscoop.iml" afterPath="$PROJECT_DIR$/Bioscoop.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HQL/OpslaanFilm.java" afterPath="$PROJECT_DIR$/src/HQL/OpslaanFilm.java" />
+    </list>
     <ignored path="Bioscoop.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,15 +61,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Film.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Film.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="0" selection-start="3347" selection-end="3548" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Socialmedia.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Socialmedia.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,10 +106,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZoneType.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ZoneType.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/ZoneType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="47" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.40070504">
+            <state line="83" column="53" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpslaanFilm.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HQL/OpslaanFilm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="51" selection-start="859" selection-end="859" vertical-scroll-proportion="0.41950646">
               <folding />
             </state>
           </provider>
@@ -124,7 +127,7 @@
       <file leaf-file-name="SocialmediaBericht.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/SocialmediaBericht.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="50" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+            <state line="55" column="77" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,7 +165,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/model/Zetel.java" />
-        <option value="$PROJECT_DIR$/src/HQL/OpslaanFilm.java" />
         <option value="$PROJECT_DIR$/src/model/Film.java" />
         <option value="$PROJECT_DIR$/src/model/Bioscoopholding.java" />
         <option value="$PROJECT_DIR$/src/model/Cinemacomplex.java" />
@@ -177,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/model/Zaal.java" />
         <option value="$PROJECT_DIR$/src/model/Zone.java" />
         <option value="$PROJECT_DIR$/src/model/ZoneType.java" />
+        <option value="$PROJECT_DIR$/src/HQL/OpslaanFilm.java" />
       </list>
     </option>
   </component>
@@ -314,15 +317,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVSS" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -355,24 +358,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -399,6 +384,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -608,13 +611,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/Cinemacomplex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="77" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Medewerker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="5" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0">
@@ -650,16 +646,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Ticket.java">
+    <entry file="file://$PROJECT_DIR$/src/model/Film.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="74" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/SocialmediaBericht.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="50" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+        <state line="198" column="0" selection-start="3347" selection-end="3548" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -674,20 +663,6 @@
     <entry file="file://$PROJECT_DIR$/src/model/Waardering.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="0" selection-start="3347" selection-end="3548" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Vertoning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="5" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -713,9 +688,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="74" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Vertoning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="5" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/ZoneType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="47" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.40070504">
+        <state line="83" column="53" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/SocialmediaBericht.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="77" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HQL/OpslaanFilm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="51" selection-start="859" selection-end="859" vertical-scroll-proportion="0.41950646">
           <folding />
         </state>
       </provider>
@@ -737,7 +740,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -761,7 +764,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.7.0_05</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
