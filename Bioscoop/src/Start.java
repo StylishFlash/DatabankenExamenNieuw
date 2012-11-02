@@ -1,3 +1,6 @@
+import org.hibernate.Session;
+import persistence.HibernateUtil;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Joris
@@ -7,6 +10,6 @@
  */
 public class Start {
     public static void main(String[] args) {
-
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
     }
 }

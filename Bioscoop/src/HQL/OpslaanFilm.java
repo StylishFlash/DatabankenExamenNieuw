@@ -38,7 +38,7 @@ public class OpslaanFilm {
         film.addRol(rol);
         session.saveOrUpdate(rol);
 
-        Medewerker medewerker = new Medewerker("Jan", new SimpleDateFormat("dd/MM/YYY").parse("01/01/1980"), "België");
+        Medewerker medewerker = new Medewerker("Jan", new SimpleDateFormat("dd/MM/YYY").parse("01/01/1980"), "Belgie");
         medewerker.addRol(rol);
         session.save(medewerker);
 

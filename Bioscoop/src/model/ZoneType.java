@@ -25,7 +25,7 @@ public class ZoneType {
     @Column
     private double prijs;
 
-    @OneToMany(mappedBy = "zonetype")
+    @OneToMany(mappedBy = "zoneType")
     private Set<Zone> zones = new HashSet<Zone>();
 
     private ZoneType() {
