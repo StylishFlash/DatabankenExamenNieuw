@@ -22,7 +22,7 @@
         <property name="use_sql_comments">false</property>
 
         <!-- Database schema genereren -->
-        <property name="hbm2dll.auto">update</property>
+        <property name="hbm2dll.auto">create</property>
 
         <!-- Reference to all the mapping files used -->
         <mapping class="model.Bioscoopholding" />
