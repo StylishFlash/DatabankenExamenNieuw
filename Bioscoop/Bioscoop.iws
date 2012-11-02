@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HQL/RegistratieTicketVerkoop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bioscoop.iws" afterPath="$PROJECT_DIR$/Bioscoop.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HQL/OpslaanFilm.java" afterPath="$PROJECT_DIR$/src/HQL/OpslaanFilm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HQL/ToevoegenSociaalMediaBericht.java" afterPath="$PROJECT_DIR$/src/HQL/ToevoegenSociaalMediaBericht.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Ticket.java" afterPath="$PROJECT_DIR$/src/model/Ticket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Verkoop.java" afterPath="$PROJECT_DIR$/src/model/Verkoop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Zaal.java" afterPath="$PROJECT_DIR$/src/model/Zaal.java" />
-    </list>
+    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="" />
     <ignored path="Bioscoop.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
