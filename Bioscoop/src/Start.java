@@ -1,4 +1,7 @@
+import org.hibernate.HibernateException;
 import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.tool.hbm2ddl.SchemaExport;
 import persistence.HibernateUtil;
 
 /**
@@ -10,6 +13,16 @@ import persistence.HibernateUtil;
  */
 public class Start {
     public static void main(String[] args) {
-        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+
+            Configuration conf = new Configuration();
+            try {
+                conf.configure("hibernateMySQL.cfg.xml");
+                        SchemaExport export = new SchemaExport(conf);
+                export.setOutputFile("shema.sql");
+                export.create(true, false);
+            } catch (HibernateException e) {
+                e.printStackTrace();
+            }
+
     }
 }
