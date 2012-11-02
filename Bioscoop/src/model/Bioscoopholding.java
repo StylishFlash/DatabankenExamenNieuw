@@ -28,12 +28,10 @@ public class Bioscoopholding {
     @Column
     private String btwNummer;
 
-    @OneToMany
-    @JoinColumn(name = "bioscoopholdingId")
+    @OneToMany(mappedBy = "bioscoopholding")
     private Set<Cinemacomplex> cinemacomplexen = new HashSet<Cinemacomplex>();
 
-    @OneToMany
-    @JoinColumn(name = "bioscoopholdingId")
+    @OneToMany(mappedBy = "bioscoopholding")
     private Set<Film> films = new HashSet<Film>();
 
     private Bioscoopholding() {
