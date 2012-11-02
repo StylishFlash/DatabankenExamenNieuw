@@ -36,15 +36,14 @@ public class Verkoop {
 
     private Verkoop() {
 
-        this(null, null, null);
+        this(null, null);
 
     }
 
-    public Verkoop(String verkoopPunt, Cinemacomplex cinemacomplex, Klant klant) {
+    public Verkoop(String verkoopPunt, Cinemacomplex cinemacomplex) {
 
         this.verkoopPunt = verkoopPunt;
         this.cinemacomplex = cinemacomplex;
-        this.klant = klant;
 
     }
 

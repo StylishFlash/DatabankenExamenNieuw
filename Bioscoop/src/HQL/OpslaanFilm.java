@@ -25,22 +25,34 @@ public class OpslaanFilm {
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         Transaction transaction = session.beginTransaction();
 
+        // Bioscoopholding aanmaken
+
         Bioscoopholding bioscoopholding = new Bioscoopholding("Kinepolis", "Gent", "BE001");
         session.saveOrUpdate(bioscoopholding);
 
-        Film film  = new Film("The Muppets", "Komedie", "De muppets film", 103, "USA", 1, true);
+        // Film aanmaken en bioscoopholding toekennen
+
+        Film film = new Film("The Muppets", "Komedie", "De muppets film", 103, "USA", 1, true);
         film.setBioscoopholding(bioscoopholding);
         session.saveOrUpdate(film);
+
+        // Rol aanmaken
 
         Rol rol = new Rol("Rol van Kermit de kikker", film);
         session.saveOrUpdate(rol);
 
+        // Rol aan film toevoegen
+
         film.addRol(rol);
         session.saveOrUpdate(rol);
 
-        Medewerker medewerker = new Medewerker("Jan", new SimpleDateFormat("dd/MM/YYY").parse("01/01/1980"), "Belgie");
+        // Medewerker aanmaken en rol toekennnen
+
+        Medewerker medewerker = new Medewerker("Jan", new SimpleDateFormat("dd/MM/yyyy").parse("01/01/1980"), "Belgie");
         medewerker.addRol(rol);
         session.saveOrUpdate(medewerker);
+
+        // Medewerker toewijzen aan rol
 
         rol.setMedewerker(medewerker);
         session.saveOrUpdate(rol);

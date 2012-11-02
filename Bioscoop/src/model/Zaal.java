@@ -86,6 +86,18 @@ public class Zaal {
 
     }
 
+    public void addZone(Zone zone) {
+
+        zones.add(zone);
+
+    }
+
+    public void removeZone(Zone zone) {
+
+        zones.remove(zone);
+
+    }
+
     public void setZones(Set<Zone> zones) {
 
         this.zones = zones;

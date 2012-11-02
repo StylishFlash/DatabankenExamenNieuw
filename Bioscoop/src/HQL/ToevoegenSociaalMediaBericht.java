@@ -24,36 +24,51 @@ public class ToevoegenSociaalMediaBericht {
     public static void main(String[] args) throws ParseException {
 
         final String filmTitel = "The Muppets";
+        final String socialeMedia = "Twitter";
+        final String berichtTijdstip = "01/01/2012 01:20:22";
+        final String berichtInhoud = filmTitel + " is een leuke film";
 
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         Transaction transaction = session.beginTransaction();
+
+        // Query voor film met een bepaalde titel in te lezen
 
         Query query = session.createQuery("from model.Film where titel = :titel");
         query.setString("titel", filmTitel);
 
         try {
 
+            // Eerste film met deze titel inlezen
+
             Film film = (Film) query.list().get(0);
 
-            Socialmedia socialmedia = new Socialmedia("Twitter");
+            // Nieuwe sociale media aanmaken
+
+            Socialmedia socialmedia = new Socialmedia(socialeMedia);
             session.saveOrUpdate(socialmedia);
 
+            // Sociaal media bericht aanmaken
+
             DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.MEDIUM);
-            Date tijdstip = dateFormat.parse("01/01/2012 01:20:22");
-            SocialmediaBericht socialmediaBericht = new SocialmediaBericht(tijdstip, "The Muppets is een leuke film!", socialmedia);
+            Date tijdstip = dateFormat.parse(berichtTijdstip);
+            SocialmediaBericht socialmediaBericht = new SocialmediaBericht(tijdstip, berichtInhoud, socialmedia);
             socialmediaBericht.setSocialmedia(socialmedia);
             socialmediaBericht.setFilm(film);
             session.saveOrUpdate(socialmediaBericht);
 
+            // Sociaal media bericht toevoegen aan de sociale media
+
             socialmedia.addSocialmediaBericht(socialmediaBericht);
             session.saveOrUpdate(socialmedia);
+
+            // Sociaal media bericht toevoegen aan de film
 
             film.addSocialmediaBericht(socialmediaBericht);
             session.saveOrUpdate(film);
 
-        }  catch (Exception e) {
+        } catch (Exception e) {
 
-           System.out.println("Er zijn geen films met als titel " + filmTitel);
+            System.out.println("Er zijn geen films met als titel " + filmTitel);
 
         }
 
