@@ -63,8 +63,7 @@ public class ToevoegenSociaalMediaBericht {
 
             // Sociaal media bericht toevoegen aan de film
 
-            film.addSocialmediaBericht(socialmediaBericht);
-            session.saveOrUpdate(film);
+           toevoegenSociaalMediaBericht(session, film, socialmediaBericht);
 
         } catch (Exception e) {
 
@@ -73,6 +72,15 @@ public class ToevoegenSociaalMediaBericht {
         }
 
         transaction.commit();
+
+    }
+
+    public static void toevoegenSociaalMediaBericht(Session session, Film film, SocialmediaBericht socialmediaBericht) {
+
+        // Sociaal media bericht toevoegen aan de film
+
+        film.addSocialmediaBericht(socialmediaBericht);
+        session.saveOrUpdate(film);
 
     }
 

@@ -102,30 +102,9 @@ public class RegistratieTicketVerkoop {
                 zaal.addVertooning(vertoning);
                 session.saveOrUpdate(zaal);
 
-                // Nieuwe verkoop aanmaken
+                // Ticket verkoop registreren
 
-                Verkoop verkoop = new Verkoop("Kassa", cinemacomplex);
-                session.saveOrUpdate(verkoop);
-
-                // Verkoop toekennen aan cinemacomplex
-
-                cinemacomplex.addVerkoop(verkoop);
-                session.saveOrUpdate(cinemacomplex);
-
-                // Nieuw ticket aanmaken
-
-                Ticket ticket = new Ticket(11123, tijdstip, "Normaal", verkoop, vertoning);
-                session.saveOrUpdate(ticket);
-
-                // Ticket aan verkoop hangen
-
-                verkoop.addTicket(ticket);
-                session.saveOrUpdate(verkoop);
-
-                // Ticket toewijzen aan vertoning
-
-                vertoning.addTicket(ticket);
-                session.saveOrUpdate(vertoning);
+                registreerTicketVerkoop(session, cinemacomplex, vertoning);
 
             } catch (Exception e) {
 
@@ -140,6 +119,35 @@ public class RegistratieTicketVerkoop {
         }
 
         transaction.commit();
+
+    }
+
+    public static void registreerTicketVerkoop(Session session, Cinemacomplex cinemacomplex, Vertoning vertoning) {
+
+        // Nieuwe verkoop aanmaken
+
+        Verkoop verkoop = new Verkoop("Kassa", cinemacomplex);
+        session.saveOrUpdate(verkoop);
+
+        // Verkoop toekennen aan cinemacomplex
+
+        cinemacomplex.addVerkoop(verkoop);
+        session.saveOrUpdate(cinemacomplex);
+
+        // Nieuw ticket aanmaken
+
+        Ticket ticket = new Ticket(11123, vertoning.getTijdstip(), "Normaal", verkoop, vertoning);
+        session.saveOrUpdate(ticket);
+
+        // Ticket aan verkoop hangen
+
+        verkoop.addTicket(ticket);
+        session.saveOrUpdate(verkoop);
+
+        // Ticket toewijzen aan vertoning
+
+        vertoning.addTicket(ticket);
+        session.saveOrUpdate(vertoning);
 
     }
 
