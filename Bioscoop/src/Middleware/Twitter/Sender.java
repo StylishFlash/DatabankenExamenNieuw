@@ -42,7 +42,15 @@ public class Sender {
         MessageProducer producer = session.createProducer(destination);
         producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
 
+        // Twitter berichten genereren
+
+        //TODO: Twitter berichten genereren
+
+        // Alle twitter berichten inlezen
+
         for (int i = 0; i < aantalBerichten; i++) {
+
+            // XML file inlezen
 
             File file = new File(bestandsnaam + i + ".xml");
             FileReader fileReader = new FileReader(file);
@@ -56,10 +64,14 @@ public class Sender {
 
             }
 
+            // Bericht op de queue plaatsen
+
             TextMessage textMessage = session.createTextMessage(stringBuilder.toString());
             producer.send(textMessage);
 
         }
+
+        // Alles afsluiten
 
         producer.close();
         session.close();
