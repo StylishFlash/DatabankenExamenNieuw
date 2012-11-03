@@ -20,6 +20,7 @@
     <orderEntry type="library" exported="" name="Hibernate4" level="project" />
     <orderEntry type="library" exported="" name="JDBC5.1.22" level="project" />
     <orderEntry type="library" exported="" name="log4j-1.2.15" level="project" />
+    <orderEntry type="library" exported="" name="activemq-all-5.7.0" level="application" />
   </component>
 </module>
 
