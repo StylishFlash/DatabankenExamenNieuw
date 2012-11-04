@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Middleware/Twitter/Receiver.java" afterPath="$PROJECT_DIR$/src/Middleware/Twitter/Receiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Middleware/Twitter/Sender.java" afterPath="$PROJECT_DIR$/src/Middleware/Twitter/Sender.java" />
     </list>
     <ignored path="Bioscoop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,10 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Sender.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Sender.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Sender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="42" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.5898673">
+            <state line="44" column="57" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,6 +123,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SocialmediaBericht.xsd" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/SocialmediaBericht.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Socialmediabericht.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Socialmediabericht.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,14 +141,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Receiver.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Receiver.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="68" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0">
+            <state line="62" column="32" selection-start="1954" selection-end="1954" vertical-scroll-proportion="-0.7177322">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1702#7196#0" expanded="true" />
-                <element signature="e#7184#7185#0" expanded="true" />
+                <element signature="e#1702#7076#0" expanded="true" />
+                <element signature="e#7064#7065#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,15 +158,6 @@
         <entry file="jar://$USER_HOME$/Desktop/Kdg/INF3/Databanken en Middleware/Apache ActiveMQ 5.7.0/activemq-all-5.7.0.jar!/org/apache/activemq/ActiveMQConnectionFactory.class">
           <provider selected="true" editor-type-id="text-editor">
             <state line="62" column="11" selection-start="3253" selection-end="3253" vertical-scroll-proportion="-10.88">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rol.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Rol.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="39" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -826,11 +825,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/Vertoning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/SocialmediaBericht.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="13" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" />
@@ -886,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/SocialmediaBericht.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="59" selection-end="112" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Socialmediabericht.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="83" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
@@ -914,22 +901,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="68" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0">
+        <state line="44" column="57" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1702#7196#0" expanded="true" />
-            <element signature="e#7184#7185#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Sender.java">
+    <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/SocialmediaBericht.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="42" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.5898673">
+        <state line="1" column="23" selection-start="59" selection-end="112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/SocialmediaBericht.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="32" selection-start="1954" selection-end="1954" vertical-scroll-proportion="-0.7177322">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1702#7076#0" expanded="true" />
+            <element signature="e#7064#7065#0" expanded="true" />
           </folding>
         </state>
       </provider>

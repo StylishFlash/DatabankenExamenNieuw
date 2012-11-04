@@ -65,8 +65,6 @@ public class Receiver {
                     StringReader stringReader = new StringReader(boodschap);
                     Socialmediabericht socialmediabericht = (Socialmediabericht) Unmarshaller.unmarshal(Socialmediabericht.class, stringReader);
 
-                    //Source source = new StreamSource(stringReader);
-
                     // Transactie beginnen
 
                     org.hibernate.Session hibernateSession = HibernateUtil.getSessionFactory().getCurrentSession();
@@ -126,38 +124,38 @@ public class Receiver {
 
                         }
 
-                         // Controleer of het Twitter bericht over een cinemacomplex ging
+                        // Controleer of het Twitter bericht over een cinemacomplex ging
 
                         if (socialmediabericht.getCinemacomplex() != null) {
 
-                               // Query voor een cinemacomplex met een bepaalde naam in te lezen
+                            // Query voor een cinemacomplex met een bepaalde naam in te lezen
 
-                               query = hibernateSession.createQuery("from model.Cinemacomplex where naam = :naam");
-                               query.setString("naam", socialmediabericht.getCinemacomplex());
+                            query = hibernateSession.createQuery("from model.Cinemacomplex where naam = :naam");
+                            query.setString("naam", socialmediabericht.getCinemacomplex());
 
-                               try {
+                            try {
 
-                                   // Eerste cinemacomplex met deze naam inlezen
+                                // Eerste cinemacomplex met deze naam inlezen
 
-                                   Cinemacomplex cinemacomplex = (Cinemacomplex) query.list().get(0);
+                                Cinemacomplex cinemacomplex = (Cinemacomplex) query.list().get(0);
 
-                                   // SocialmediaBericht toevoegen aan cinemacomplex
+                                // SocialmediaBericht toevoegen aan cinemacomplex
 
-                                   cinemacomplex.addSocialmediaBericht(socialmediaBericht);
-                                   hibernateSession.saveOrUpdate(cinemacomplex);
+                                cinemacomplex.addSocialmediaBericht(socialmediaBericht);
+                                hibernateSession.saveOrUpdate(cinemacomplex);
 
-                                   // Cinemacomplex toevoegen aan het SocialmediaBericht
+                                // Cinemacomplex toevoegen aan het SocialmediaBericht
 
-                                   socialmediaBericht.setCinemacomplex(cinemacomplex);
-                                   hibernateSession.saveOrUpdate(socialmediaBericht);
+                                socialmediaBericht.setCinemacomplex(cinemacomplex);
+                                hibernateSession.saveOrUpdate(socialmediaBericht);
 
-                               } catch (Exception e) {
+                            } catch (Exception e) {
 
-                                   System.out.println("Er is geen cinemacomplex gevonden met de naam " + socialmediabericht.getCinemacomplex());
+                                System.out.println("Er is geen cinemacomplex gevonden met de naam " + socialmediabericht.getCinemacomplex());
 
-                               }
+                            }
 
-                           }
+                        }
 
                     } catch (Exception e) {
 
