@@ -28,7 +28,6 @@ public class Sender {
 
     public static void main(String[] args) throws JMSException, IOException, MarshalException, ValidationException, ParseException {
 
-        //final String bestandsnaam = "TwitterBericht";
         final int aantalBerichten = 10;
         final List<String> films = Arrays.asList("The Muppets");
         final List<String> cinemacomplexen = Arrays.asList("Kinepolis Antwerpen");
