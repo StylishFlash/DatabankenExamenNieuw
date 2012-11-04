@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<week xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Week.xsd">
+	<maandag>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+	</maandag>
+	<dinsdag>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+	</dinsdag>
+	<woensdag>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+	</woensdag>
+	<donderdag>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+	</donderdag>
+	<vrijdag>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+	</vrijdag>
+	<zaterdag>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+	</zaterdag>
+	<zondag>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+		<vertoning>
+			<id/>
+			<is3D/>
+			<taal/>
+			<tijdstip type="date"/>
+			<zetelreservatie/>
+			<filmId/>
+			<zaalId/>
+		</vertoning>
+	</zondag>
+</week>

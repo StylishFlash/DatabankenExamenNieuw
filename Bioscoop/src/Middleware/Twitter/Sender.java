@@ -1,9 +1,20 @@
 package Middleware.Twitter;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
+import org.exolab.castor.xml.MarshalException;
+import org.exolab.castor.xml.Marshaller;
+import org.exolab.castor.xml.ValidationException;
 
 import javax.jms.*;
-import java.io.*;
+import java.io.IOException;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.sql.Timestamp;
+import java.text.ParseException;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
+import java.util.Random;
 
 
 /**
@@ -15,14 +26,16 @@ import java.io.*;
  */
 public class Sender {
 
-    public static void main(String[] args) throws JMSException, IOException {
+    public static void main(String[] args) throws JMSException, IOException, MarshalException, ValidationException, ParseException {
 
-        final String bestandsnaam = "TwitterBericht";
+        //final String bestandsnaam = "TwitterBericht";
         final int aantalBerichten = 10;
+        final List<String> films = Arrays.asList("The Muppets");
+        final List<String> cinemacomplexen = Arrays.asList("Kinepolis Antwerpen");
 
         // Create a ConnectionFactory
 
-        ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://localhost:61616");
+        ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("failover://(tcp://localhost:61616,tcp://localhost:61617)?randomize=false");
 
         // Create a Connection to ActiceMQ
 
@@ -42,31 +55,64 @@ public class Sender {
         MessageProducer producer = session.createProducer(destination);
         producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
 
-        // Twitter berichten genereren
+        // Random Twitter berichten aanmaken
 
-        //TODO: Twitter berichten genereren
-
-        // Alle twitter berichten inlezen
+        Writer writer;
+        Random random = new Random();
 
         for (int i = 0; i < aantalBerichten; i++) {
 
-            // XML file inlezen
+            // Nieuw Twitter bericht aanmaken
 
-            File file = new File(bestandsnaam + i + ".xml");
-            FileReader fileReader = new FileReader(file);
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
-            StringBuilder stringBuilder = new StringBuilder();
-            String lijn;
+            Socialmediabericht socialmediabericht = new Socialmediabericht();
+            socialmediabericht.setSociaalnetwerk("Twitter");
 
-            while ((lijn = bufferedReader.readLine()) != null) {
+            // Random tijdstip bepalen
 
-                stringBuilder.append(lijn);
+            long offset = Timestamp.valueOf("2011-11-01 00:00:00").getTime();
+            long end = Timestamp.valueOf("2011-12-01 00:00:00").getTime();
+            long diff = end - offset + 1;
+            Date tijdstip = new Date(offset + (long) (Math.random() * diff));
+            socialmediabericht.setTijdstip(tijdstip);
+
+            // Random kiezen voor een bericht over een film of over een cinemacomplex
+
+            int filmOfCinemacomplex = random.nextInt(2);
+
+            if (filmOfCinemacomplex == 0) { // Film
+
+                // Random film uit de lijst nemen
+
+                int film = random.nextInt(films.size());
+                String filmNaam = films.get(film);
+
+                // Film toevoegen aan bericht
+
+                socialmediabericht.setFilm(filmNaam);
+                socialmediabericht.setInhoud(String.format("%s is een leuke film!", filmNaam));
+
+            } else if (filmOfCinemacomplex == 1) { // Cinemacomplex
+
+                // Random cinemacomplex uit de lijst nemen
+
+                int cinemacomplex = random.nextInt(cinemacomplexen.size());
+                String cinemacomplexNaam = cinemacomplexen.get(cinemacomplex);
+
+                // Cinemacomplex toevoegen aan bericht
+
+                socialmediabericht.setCinemacomplex(cinemacomplexNaam);
+                socialmediabericht.setInhoud(String.format("%s is gezellig!", cinemacomplexNaam));
 
             }
 
+            // Bericht omzetten naar XML
+
+            writer = new StringWriter();
+            Marshaller.marshal(socialmediabericht, writer);
+
             // Bericht op de queue plaatsen
 
-            TextMessage textMessage = session.createTextMessage(stringBuilder.toString());
+            TextMessage textMessage = session.createTextMessage(writer.toString());
             producer.send(textMessage);
 
         }

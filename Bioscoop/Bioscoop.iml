@@ -21,6 +21,8 @@
     <orderEntry type="library" exported="" name="JDBC5.1.22" level="project" />
     <orderEntry type="library" exported="" name="log4j-1.2.15" level="project" />
     <orderEntry type="library" exported="" name="activemq-all-5.7.0" level="application" />
+    <orderEntry type="library" exported="" name="castor-1.3.1-anttasks" level="application" />
+    <orderEntry type="library" exported="" name="commons-logging-1.1.1" level="application" />
   </component>
 </module>
 

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Middleware/Twitter/Receiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Middleware/Twitter/Socialmediabericht.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bioscoop.iml" afterPath="$PROJECT_DIR$/Bioscoop.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bioscoop.iws" afterPath="$PROJECT_DIR$/Bioscoop.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Middleware/Twitter/Sender.java" afterPath="$PROJECT_DIR$/src/Middleware/Twitter/Sender.java" />
     </list>
     <ignored path="Bioscoop.iws" />
@@ -65,57 +69,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OpzoekenBeschikbarePlaatsen.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HQL/OpzoekenBeschikbarePlaatsen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="84" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Film.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Film.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vertoning.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Vertoning.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocialmediaBericht.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/SocialmediaBericht.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToevoegenSociaalMediaBericht.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HQL/ToevoegenSociaalMediaBericht.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="80" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Sender.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Sender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="41" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.54885405">
+            <state line="34" column="30" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.42581424">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,10 +80,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ticket.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Ticket.java">
+      <file leaf-file-name="OpslaanFilm.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HQL/OpslaanFilm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="58" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
+            <state line="29" column="46" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpzoekenVoorstellingen.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HQL/OpzoekenVoorstellingen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="8" selection-start="915" selection-end="1007" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Marshaller.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Desktop/Kdg/INF3/Databanken en Middleware/castor-1.3.1/castor-1.3.1/castor-1.3.1-xml.jar!/org/exolab/castor/xml/Marshaller.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="0" selection-start="7100" selection-end="7100" vertical-scroll-proportion="-6.6">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocialmediaBericht.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/SocialmediaBericht.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="23" selection-start="59" selection-end="112" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Socialmediabericht.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Socialmediabericht.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="83" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Receiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Receiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="21" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -172,8 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/model/Zone.java" />
-        <option value="$PROJECT_DIR$/src/model/ZoneType.java" />
         <option value="$PROJECT_DIR$/src/hibernateMySQL.cfg.xml" />
         <option value="$PROJECT_DIR$/src/datagenerator/Maak10BeurtenKaarten.java" />
         <option value="$PROJECT_DIR$/src/Start.java" />
@@ -187,6 +187,8 @@
         <option value="$PROJECT_DIR$/src/HQL/OpzoekenVoorstellingen.java" />
         <option value="$PROJECT_DIR$/src/HQL/OpzoekenBeschikbarePlaatsen.java" />
         <option value="$PROJECT_DIR$/src/Middleware/Twitter/dd.java" />
+        <option value="$PROJECT_DIR$/src/Middleware/Twitter/Beurskoers.java" />
+        <option value="$PROJECT_DIR$/src/Middleware/Twitter/Socialmediabericht.java" />
         <option value="$PROJECT_DIR$/src/Middleware/Twitter/Sender.java" />
       </list>
     </option>
@@ -223,6 +225,30 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bioscoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bioscoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,30 +377,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bioscoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bioscoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,11 +393,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Middleware.Twitter" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Joris\Desktop\Github\DatabankenExamenNieuw\Bioscoop\src" />
       <recent name="C:\Users\Joris\Desktop\Github\DatabankenExamenNieuw\Bioscoop\lib" />
@@ -404,29 +409,7 @@
       <recent name="C:\Users\Joris\Documents\GitHub\DatabankenExamen\Bioscoop\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OpzoekenBeschikbarePlaatsen">
-    <configuration default="false" name="Maak10BeurtenKaarten" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="datagenerator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="datagenerator.Maak10BeurtenKaarten" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Bioscoop" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Sender">
     <configuration default="false" name="ToevoegenSociaalMediaBericht" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -529,6 +512,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="Sender" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Middleware.Twitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Middleware.Twitter.Sender" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Bioscoop" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -549,6 +560,24 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -578,24 +607,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -650,11 +661,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Maak10BeurtenKaarten" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ToevoegenSociaalMediaBericht" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RegistratieTicketVerkoop" />
-      <item index="3" class="java.lang.String" itemvalue="Application.OpzoekenVoorstellingen" />
-      <item index="4" class="java.lang.String" itemvalue="Application.OpzoekenBeschikbarePlaatsen" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ToevoegenSociaalMediaBericht" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RegistratieTicketVerkoop" />
+      <item index="2" class="java.lang.String" itemvalue="Application.OpzoekenVoorstellingen" />
+      <item index="3" class="java.lang.String" itemvalue="Application.OpzoekenBeschikbarePlaatsen" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Sender" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -692,30 +703,30 @@
     <frame x="0" y="0" width="1916" height="1020" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27676538" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.4966518" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17147435" sideWeight="0.32772166" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.4966518" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17147435" sideWeight="0.32772166" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.4955357" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.4955357" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28494623" sideWeight="0.6708428" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28464016" sideWeight="0.6640091" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33599088" sideWeight="0.9991095" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295699" sideWeight="0.72323465" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295699" sideWeight="0.72323465" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -812,38 +823,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Start.java">
+    <entry file="file://$PROJECT_DIR$/src/model/Film.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" />
+        <state line="15" column="13" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HQL/RegistratieTicketVerkoop.java">
+    <entry file="file://$PROJECT_DIR$/src/model/Vertoning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="8" selection-start="835" selection-end="888" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="16" column="13" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HQL/OpzoekenVoorstellingen.java">
+    <entry file="file://$PROJECT_DIR$/src/model/SocialmediaBericht.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="54" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="13" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HQL/OpslaanFilm.java">
+    <entry file="file://$PROJECT_DIR$/src/HQL/ToevoegenSociaalMediaBericht.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="66" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" />
+        <state line="46" column="80" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ZoneType.java">
+    <entry file="file://$PROJECT_DIR$/src/model/Ticket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="34" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0" />
+        <state line="40" column="58" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Zone.java">
+    <entry file="file://$PROJECT_DIR$/src/model/Verkoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="71" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" />
+        <state line="21" column="90" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Zaal.java">
@@ -856,58 +863,58 @@
         <state line="40" column="39" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HQL/OpzoekenBeschikbarePlaatsen.java">
+    <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="84" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+        <state line="9" column="21" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Vertoning.java">
+    <entry file="file://$PROJECT_DIR$/src/hibernateMySQL.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+        <state line="34" column="46" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.39513108">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/SocialmediaBericht.java">
+    <entry file="jar://$USER_HOME$/Desktop/Kdg/INF3/Databanken en Middleware/castor-1.3.1/castor-1.3.1/castor-1.3.1-xml.jar!/org/exolab/castor/xml/Marshaller.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+        <state line="123" column="0" selection-start="7100" selection-end="7100" vertical-scroll-proportion="-6.6">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HQL/ToevoegenSociaalMediaBericht.java">
+    <entry file="file://$PROJECT_DIR$/src/HQL/OpslaanFilm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="80" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
+        <state line="29" column="46" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Ticket.java">
+    <entry file="file://$PROJECT_DIR$/src/HQL/OpzoekenVoorstellingen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="58" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" />
+        <state line="34" column="8" selection-start="915" selection-end="1007" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Verkoop.java">
+    <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/SocialmediaBericht.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="90" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+        <state line="1" column="23" selection-start="59" selection-end="112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Socialmediabericht.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="83" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Middleware/Twitter/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="41" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.54885405">
+        <state line="34" column="30" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.42581424">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
