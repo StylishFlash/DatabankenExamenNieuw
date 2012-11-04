@@ -1,0 +1,9 @@
+INSERT INTO `t_zetel` VALUES (1, 1, 1, NULL, 1);
+INSERT INTO `t_zetel` VALUES (2, 1, 2, NULL, 1);
+INSERT INTO `t_zetel` VALUES (3, 0, 3, NULL, 1);
+INSERT INTO `t_zetel` VALUES (4, 0, 4, NULL, 2);
+INSERT INTO `t_zetel` VALUES (5, 0, 5, NULL, 1);
+INSERT INTO `t_zetel` VALUES (6, 1, 6, NULL, 1);
+INSERT INTO `t_zetel` VALUES (7, 0, 7, NULL, 3);
+INSERT INTO `t_zetel` VALUES (8, 1, 8, NULL, 3);
+INSERT INTO `t_zetel` VALUES (9, 0, 9, NULL, 2);
