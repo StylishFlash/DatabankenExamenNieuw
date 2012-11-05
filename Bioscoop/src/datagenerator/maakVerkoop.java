@@ -22,6 +22,8 @@ import java.util.Random;
  * To change this template use File | Settings | File Templates.
  */
 public class maakVerkoop {
+
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         int aantalVerkopen = 20;
 
@@ -39,7 +41,8 @@ public class maakVerkoop {
             Klant klant = klanten.get(rand.nextInt(klanten.size()));
             Cinemacomplex cinemacomplex = cinemacomplexes.get(rand.nextInt(cinemacomplexes.size()));
             String verkooppunt = verkooppunten.get(rand.nextInt(2));
-            Verkoop verkoop = new Verkoop(verkooppunt, cinemacomplex, klant);
+            Verkoop verkoop = new Verkoop(verkooppunt, cinemacomplex);
+            verkoop.setKlant(klant);
             session.saveOrUpdate(verkoop);
             int isTienbeurtenkaart = rand.nextInt(1);
             if(isTienbeurtenkaart == 0){
