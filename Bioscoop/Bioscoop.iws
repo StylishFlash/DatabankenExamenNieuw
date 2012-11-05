@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="" />
+    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_bioscoopholding.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_cinemacomplex.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_film.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_klant.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_ticket.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_vertoning.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_zaal.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_zetel.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_zone.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_zonetype.sql" afterPath="" />
+    </list>
     <ignored path="Bioscoop.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -129,7 +140,7 @@
       <file leaf-file-name="maakVerkoop.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/datagenerator/maakVerkoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="42" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.6972256">
+            <state line="37" column="28" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.51266587">
               <folding>
                 <element signature="e#513#543#0" expanded="true" />
               </folding>
@@ -635,8 +646,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1916" height="1020" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1916" height="1020" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -655,7 +666,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28356606" sideWeight="0.6708428" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28356606" sideWeight="0.6708428" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33599088" sideWeight="0.9991095" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295699" sideWeight="0.72323465" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -834,7 +845,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datagenerator/maakVerkoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="42" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.6972256">
+        <state line="37" column="28" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.51266587">
           <folding>
             <element signature="e#513#543#0" expanded="true" />
           </folding>
