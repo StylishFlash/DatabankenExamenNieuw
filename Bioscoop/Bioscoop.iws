@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_bioscoopholding.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_cinemacomplex.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_film.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_klant.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_ticket.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_vertoning.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_zaal.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_zetel.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_zone.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\src\SQL Scripts\t_zonetype.sql" afterPath="" />
-    </list>
+    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="" />
     <ignored path="Bioscoop.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -646,7 +635,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1916" height="1020" extended-state="1" />
+    <frame x="0" y="0" width="1916" height="1020" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
