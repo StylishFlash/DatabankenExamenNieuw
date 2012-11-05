@@ -25,40 +25,59 @@ public class maakVerkoop {
 
     @SuppressWarnings("unchecked")
     public static void main(String[] args) {
-        int aantalVerkopen = 20;
+
+        final int aantalVerkopen = 20;
 
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         Transaction tx = session.beginTransaction();
+
         Query query = session.createQuery("from Cinemacomplex");
         List<Cinemacomplex> cinemacomplexes = (List<Cinemacomplex>) query.list();
+
         query = session.createQuery("from Klant ");
         List<Klant> klanten = (List<Klant>) query.list();
+
         List<String> verkooppunten = new ArrayList<String>();
         verkooppunten.add("Online");
         verkooppunten.add("Kassa");
+
         Random rand = new Random();
-        for(int i = 0; i < aantalVerkopen; i++){
+
+        for (int i = 0; i < aantalVerkopen; i++) {
+
             Klant klant = klanten.get(rand.nextInt(klanten.size()));
             Cinemacomplex cinemacomplex = cinemacomplexes.get(rand.nextInt(cinemacomplexes.size()));
             String verkooppunt = verkooppunten.get(rand.nextInt(2));
             Verkoop verkoop = new Verkoop(verkooppunt, cinemacomplex);
             verkoop.setKlant(klant);
             session.saveOrUpdate(verkoop);
+
             int isTienbeurtenkaart = rand.nextInt(1);
-            if(isTienbeurtenkaart == 0){
+
+            if (isTienbeurtenkaart == 0) {
+
                 int nummer = rand.nextInt(2);
                 double prijs;
-                if(nummer == 0){
+
+                if (nummer == 0) {
+
                     prijs = 14.99;
-                }else{
+
+                } else {
+
                     prijs = 24.99;
+
                 }
+
                 Tienbeurtenkaart tienbeurtenkaart = new Tienbeurtenkaart(prijs, verkoop);
                 session.saveOrUpdate(tienbeurtenkaart);
-            }   else{
+
+            } else {
 
             }
+
         }
+
         tx.commit();
 
         /*     Session s  = HibernateUtil.getSessionFactory().getCurrentSession();

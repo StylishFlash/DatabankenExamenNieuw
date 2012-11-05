@@ -10,17 +10,25 @@ import org.hibernate.tool.hbm2ddl.SchemaExport;
  * To change this template use File | Settings | File Templates.
  */
 public class Start {
+
     public static void main(String[] args) {
 
-            Configuration conf = new Configuration();
-            try {
-                conf.configure("hibernateMySQL.cfg.xml");
-                        SchemaExport export = new SchemaExport(conf);
-                export.setOutputFile("shema.sql");
-                export.create(true, true);
-            } catch (HibernateException e) {
-                e.printStackTrace();
-            }
+        Configuration conf = new Configuration();
+
+        try {
+
+            conf.configure("hibernateMySQL.cfg.xml");
+
+            SchemaExport export = new SchemaExport(conf);
+            export.setOutputFile("schema.sql");
+            export.create(true, true);
+
+        } catch (HibernateException e) {
+
+            e.printStackTrace();
+
+        }
 
     }
+
 }
