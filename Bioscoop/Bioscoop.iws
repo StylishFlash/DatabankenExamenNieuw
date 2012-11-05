@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="" />
+    <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datagenerator/maakVerkoop.java" afterPath="$PROJECT_DIR$/src/datagenerator/maakVerkoop.java" />
+    </list>
     <ignored path="Bioscoop.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -129,7 +131,7 @@
       <file leaf-file-name="maakVerkoop.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/datagenerator/maakVerkoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="72" selection-start="894" selection-end="894" vertical-scroll-proportion="0.27864897">
+            <state line="46" column="42" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.6972256">
               <folding>
                 <element signature="e#513#543#0" expanded="true" />
               </folding>
@@ -834,7 +836,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datagenerator/maakVerkoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="72" selection-start="894" selection-end="894" vertical-scroll-proportion="0.27864897">
+        <state line="46" column="42" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.6972256">
           <folding>
             <element signature="e#513#543#0" expanded="true" />
           </folding>

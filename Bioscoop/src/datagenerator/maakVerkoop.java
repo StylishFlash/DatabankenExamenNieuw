@@ -47,7 +47,7 @@ public class maakVerkoop {
             int isTienbeurtenkaart = rand.nextInt(1);
             if(isTienbeurtenkaart == 0){
                 int nummer = rand.nextInt(2);
-                double prijs = 0;
+                double prijs;
                 if(nummer == 0){
                     prijs = 14.99;
                 }else{
