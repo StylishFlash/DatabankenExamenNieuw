@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9abc08b6-fd20-4784-8099-3da2df417702" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\out\production\Bioscoop\Middleware\Programmatie\Week1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joachim\Documents\GitHub\DatabankenExamenNieuw\Bioscoop\out\production\Bioscoop\Middleware\Twitter\SocialmediaBericht.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bioscoop.iml" afterPath="$PROJECT_DIR$/Bioscoop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bioscoop.ipr" afterPath="$PROJECT_DIR$/Bioscoop.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bioscoop.iws" afterPath="$PROJECT_DIR$/Bioscoop.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datagenerator/maakVerkoop.java" afterPath="$PROJECT_DIR$/src/datagenerator/maakVerkoop.java" />
     </list>
     <ignored path="Bioscoop.iws" />
     <ignored path=".idea/workspace.xml" />
